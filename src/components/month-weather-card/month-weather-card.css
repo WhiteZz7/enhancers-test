@@ -1,0 +1,29 @@
+.month-card {
+    color: #fff;
+    box-shadow: 2px 2px 7px 1px #7473738a;
+    background: #7BAEF2;
+    border-radius: 10px;
+    display: grid;
+    grid-template-areas: 
+        "one one two two two"
+        "three three two two two";
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0;
+    padding-top: 20px;
+    font-family: 'Poppins';
+}
+
+.one {
+    grid-area: one;
+    margin-left: 10px;
+}
+
+.two {
+    grid-area: two;
+}
+
+.three {
+    grid-area: three;
+}

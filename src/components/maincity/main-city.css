@@ -1,0 +1,26 @@
+.main-city {
+    padding-left: 50px;
+    padding-top: 30px;
+}
+
+.main-city-name {
+    color:#011a5d;
+    font-family: 'Poppins';
+    margin-left: 10px;
+}
+
+.main-city-date {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    color: #011a5d;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.main-city-weather {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    color: #011a5d;
+    margin-left: 10px;
+    font-size: 20px;
+}

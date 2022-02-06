@@ -1,0 +1,17 @@
+.cities-card {
+    color: white;
+    width: 374px;
+    height: 140px;
+    background: rgb(38,78,189);
+    background: linear-gradient(135deg, rgba(38,78,189,1) 0%, rgba(89,131,229,1) 70%, rgba(114,178,240,1) 100%); 
+    box-shadow: 5px 5px 8px 2px #a4a3a3;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 50px;
+    font-family: 'Poppins';
+  }

@@ -1,3 +1,32 @@
+**Author:** _Andrea Bianco_
+**Enhancers Weather Station Test**
+
+# Per avviare il progetto
+
+Requisiti: node, npm
+
+Nel terminale, posizionarsi nella root principale del progetto: 
+1. cd enhancers-test
+2. npm install (per scaricare ed installare tutte le dipendenze)
+3. npm start
+
+
+# Sviluppo:
+Lo sviluppo prevedeva la realizzazione di una webapp quanto più fedele possibile al mockup fornito.
+Essa deve:
+1. Reperire i dati meteo tramite ricerca.
+2. Mostrare le previsioni meteo giornaliere, settimanali e mensili.
+3. Reperire i dati meteo basandosi sulla geolocalizzazione dell'utente tramite concessione dei permessi.
+
+Sono partito (erroneamente) dallo sviluppo dell'interfaccia per la visualizzazione Desktop, errore dovuto allo scarso lavoro legato al front-end nell'ultimo anno, cercando poi di sviluppare la versione Mobile e Tablet in corso d'opera per renderla il più fedele possibile al mockup allegato. 
+Ho suddiviso l'area di lavoro in grid, in modo tale da poter strutturare ed organizzare meglio i contenuti.
+Il primo elemento sviluppato è la MainCityCard, dove viene visualizzata di default la condizione meteo di Torino, condizione che poi varierà in base alla ricerca effettuata tramite l'apposita search bar contenuta nel componente SearchInput. 
+Il secondo elemento, è la sidebar laterale contenente il componente di ricerca, i widget contenenti i dati meteo di due città aggiuntive, in questo caso Roma e Londra come da mockup e il componente per la geolocalizzazione dell'utente. 
+La funzione di Add City purtroppo non sono riuscito ad implementarla, in quanto ho una ridotta conoscenza di Redux e pur cercando di approfondirla, non sono riuscito a svilupparla. 
+Il terzo elemento è il widget che visualizza l'andamento meteo nelle ore successive a quella attuale per la città selezionata.
+Il quarto ed ultimo elemento sviluppato, il widget contentente le tab Week e MonthlyCard, che mostrano l'andamento meteo settimanale e una media mensile per la città selezionata nel widget principale. 
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

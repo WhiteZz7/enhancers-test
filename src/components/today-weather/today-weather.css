@@ -1,0 +1,23 @@
+.today-section {
+    color: #fff;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    padding-top: 70px;
+    font-family: 'Poppins';
+}
+
+.temps {
+    text-align: center;
+}
+
+.today-section h3 {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.today-section p {
+    text-align: center;
+}
